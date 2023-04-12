@@ -1,0 +1,31 @@
+{
+  "name": "onyxsmp-auth",
+  "version": "1.0.0",
+  "description": "Authentication bot for OnyxSMP",
+  "main": "index.js",
+  "dependencies": {
+    "discord-forums": "^2.0.2",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnyxSMP/authentication-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "minecraft",
+    "whitelist",
+    "discord.js",
+    "nodejs"
+  ],
+  "author": "ZombieNW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OnyxSMP/authentication-bot/issues"
+  },
+  "homepage": "https://github.com/OnyxSMP/authentication-bot#readme"
+}
