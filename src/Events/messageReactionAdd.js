@@ -32,6 +32,7 @@ module.exports = {
                     await userMember.setNickname(userMcUser);
                 } catch{}
                 reactionMessage.channel.send(`User ${userMember.user.username} has been approved.`);
+                client.guilds.fetch("1094741690620841995").then(guild => guild.channels.fetch("1095939051267305483").then(channel => channel.send(`whitelist add ${userMcUser}`)));
                 const newForumPost = await discForums.createPost(forumChannel, `${userMember.user.username} - ${userMcUser}`, `${userMember.user.username} - ${userMcUser}`);
                 //User Info Embed
                 const embed = new EmbedBuilder()
